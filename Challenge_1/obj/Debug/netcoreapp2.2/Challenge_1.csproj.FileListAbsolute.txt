@@ -1,0 +1,11 @@
+/home/beardsyndicate/Projects/Challenge_1/bin/Debug/netcoreapp2.2/Challenge_1.deps.json
+/home/beardsyndicate/Projects/Challenge_1/bin/Debug/netcoreapp2.2/Challenge_1.runtimeconfig.json
+/home/beardsyndicate/Projects/Challenge_1/bin/Debug/netcoreapp2.2/Challenge_1.runtimeconfig.dev.json
+/home/beardsyndicate/Projects/Challenge_1/bin/Debug/netcoreapp2.2/Challenge_1.dll
+/home/beardsyndicate/Projects/Challenge_1/bin/Debug/netcoreapp2.2/Challenge_1.pdb
+/home/beardsyndicate/Projects/Challenge_1/obj/Debug/netcoreapp2.2/Challenge_1.csprojAssemblyReference.cache
+/home/beardsyndicate/Projects/Challenge_1/obj/Debug/netcoreapp2.2/Challenge_1.csproj.CoreCompileInputs.cache
+/home/beardsyndicate/Projects/Challenge_1/obj/Debug/netcoreapp2.2/Challenge_1.AssemblyInfoInputs.cache
+/home/beardsyndicate/Projects/Challenge_1/obj/Debug/netcoreapp2.2/Challenge_1.AssemblyInfo.cs
+/home/beardsyndicate/Projects/Challenge_1/obj/Debug/netcoreapp2.2/Challenge_1.dll
+/home/beardsyndicate/Projects/Challenge_1/obj/Debug/netcoreapp2.2/Challenge_1.pdb
