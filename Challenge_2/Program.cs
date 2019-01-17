@@ -12,13 +12,6 @@ namespace Challenge_2
                 For example, if you were in physics class, you might want to make a F = M * A calc.
 
                 Temperature Converter - F <-> C <-> K
-                adf
-                ad
-                ad
-                ad
-                fa
-                df
-                adsf
 
              */
             
