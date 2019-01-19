@@ -34,9 +34,9 @@ namespace Challenge_2
             tempInput = Console.ReadLine();
             tempConvert = Convert.ToDouble(tempInput);            
             tempCel = convertToCelcius(tempConvert);
-            tempCel = Convert.ToInt32(tempCel);
+            //tempCel = Convert.ToInt32(tempCel);
             tempKel = convertToKelvin(tempConvert);
-            tempKel = Convert.ToInt32(tempKel);
+            //tempKel = Convert.ToInt32(tempKel);
             Console.WriteLine("Temperature: {0}C {1}K", tempCel, tempKel);
 
             double convertToCelcius(double temp)
