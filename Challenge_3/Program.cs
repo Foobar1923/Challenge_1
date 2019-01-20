@@ -8,18 +8,18 @@ namespace Challenge_3
         {
             /*
             
-                write a program that can encrypt texts with an alphabetical caesar cipher. This cipher can ignore numbers, symbols, and whitespace.
+            write a program that can encrypt texts with an alphabetical caesar cipher. This cipher can ignore numbers, symbols, and whitespace.
+            
+            cipher - shift each letter 1 to the left or right
 
-             */
+            */
              
-            string encryptPhrase;
-            int encryptShift;
+            string[] encryptPhrase;
+            
 
             Console.WriteLine("Please enter a phrase to encrypt (Numbers, Symbols and Spaces will be ignored):");
             encryptPhrase = Console.ReadLine();
             
-            Console.WriteLine("Pleae enter a shift variable:");
-            encryptShift = Console.ReadLine();
             
         }
     }
