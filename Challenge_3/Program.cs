@@ -23,18 +23,21 @@ namespace Challenge_3
             Console.WriteLine("Enter the number to shift:");
             cipherShift = Convert.ToInt32(Console.ReadLine());
             Array.Resize(ref encryptedArray, phrase.Length); // change array size to length of phrase
-            Console.WriteLine("Size: {0}", key.Length);
             for (int i = 0; i < phrase.Length; i++)
             {
                 for(int x = 0; x < key.Length; x++)
                 {
+                    /*
+                    if phraseArray[i + cipherShift] > key.length
+                    int temp = cipherShift - (key.length - phraseArray[i])
+                    encryptedArrary[i] = key[temp]
+                    */
+                    
                     if(phraseArray[i] == key[x])
                     {
+                        int temp = Array.IndexOf(phraseArray, i);
+                        Console.WriteLine("Temp: {0}",temp);
                         //encryptedArray[i] = key[x + cipherShift];
-                        if(key[x + cipherShift] > key.Length)
-                        {
-                            Console.WriteLine("To Big");
-                        }
                         Console.WriteLine("Encrypted phrase: {0}", encryptedArray[i]);
                     }
                 }
