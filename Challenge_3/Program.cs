@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Configuration;
 
 namespace Challenge_3
 {
@@ -13,7 +15,7 @@ namespace Challenge_3
             */
              
             string phrase; 
-            int cipherShift;
+            int cipherShift, phraseSize;
             char[] phraseArray;
             char[] encryptedArray = {};
             char[] key = {'a', 'b', 'c', 'd', 'e', 'f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -23,23 +25,24 @@ namespace Challenge_3
             Console.WriteLine("Enter the number to shift:");
             cipherShift = Convert.ToInt32(Console.ReadLine());
             Array.Resize(ref encryptedArray, phrase.Length); // change array size to length of phrase
-            for (int i = 0; i < phrase.Length; i++)
+            phraseSize = phrase.Length;
+            for (int i = 0; i < phraseSize; i++)
             {
+                int temp = Array.IndexOf(phraseArray,phraseArray[i]);
+                Console.WriteLine("Temp: {0}", temp);
                 for(int x = 0; x < key.Length; x++)
                 {
-                    /*
-                    if phraseArray[i + cipherShift] > key.length
-                    int temp = cipherShift - (key.length - phraseArray[i])
-                    encryptedArrary[i] = key[temp]
-                    */
-                    
-                    if(phraseArray[i] == key[x])
+                    if(temp > key[x])
                     {
-                        int temp = Array.IndexOf(phraseArray, i);
-                        Console.WriteLine("Temp: {0}",temp);
-                        //encryptedArray[i] = key[x + cipherShift];
-                        Console.WriteLine("Encrypted phrase: {0}", encryptedArray[i]);
+                        int overFlow = (temp % i) + cipherShift;
+                        encryptedArray[i] = key[overFlow];
                     }
+                    else
+                        if(phraseArray[i] == key[x])
+                        {
+                            encryptedArray[i] = key[x + cipherShift];
+                            Console.WriteLine("Encrypted phrase: {0}", encryptedArray[i]);
+                        }
                 }
             }
             //phrase = Convert.ToString(encryptedArray);
