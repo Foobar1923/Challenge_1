@@ -15,7 +15,7 @@ namespace Challenge_3
             */
              
             string phrase; 
-            int cipherShift, phraseSize;
+            int cipherShift;
             char[] phraseArray;
             char[] encryptedArray = {};
             char[] key = {'a', 'b', 'c', 'd', 'e', 'f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -25,8 +25,7 @@ namespace Challenge_3
             Console.WriteLine("Enter the number to shift:");
             cipherShift = Convert.ToInt32(Console.ReadLine());
             Array.Resize(ref encryptedArray, phrase.Length); // change array size to length of phrase
-            phraseSize = phrase.Length;
-            for (int i = 0; i < phraseSize; i++)
+            for (int i = 0; i < phrase.Length; i++)
             {
                 int temp = Array.IndexOf(phraseArray,phraseArray[i]);
                 Console.WriteLine("Temp: {0}", temp);
