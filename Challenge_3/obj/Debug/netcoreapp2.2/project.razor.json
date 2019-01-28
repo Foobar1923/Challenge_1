@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "c:\\Users\\kevin.yates\\Downloads\\Code\\Challenges\\Challenge_3\\Challenge_3.csproj",
+  "ProjectFilePath": "/home/beardsyndicate/Projects/Challenge_3/Challenge_3.csproj",
   "TargetFramework": "netcoreapp2.2",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "UnsupportedRazor",
-    "LanguageVersion": "1.0",
-    "Extensions": [
-      {
-        "ExtensionName": "UnsupportedRazorExtension"
-      }
-    ]
-  }
+  "Configuration": null
 }
