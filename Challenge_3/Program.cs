@@ -25,33 +25,12 @@ namespace Challenge_3
             cipherShift = Convert.ToInt32(Console.ReadLine());
             for(int i = 0; i < phrase.Length; i++)
             {
-<<<<<<< HEAD
                 for(int x = 0; x < key.Length; x++)
                 {
                     if(phrase[i + cipherShift] < key.Length)
-=======
-                //int temp = Array.IndexOf(phraseArray,phraseArray[i]);
-                Regex rgx = new Regex(phrase);
-                Match match = rgx.Match(phrase);
-                foreach(Match m in rgx.Matches(phrase, phraseArray[i]))
-                    Console.WriteLine("Temp: {0}", m.Index);
-                for(int x = 0; x < key.Length; x++)
-                {
-                    /*if(temp > key[x])
->>>>>>> .
                     {
                         encryptedPhrase += encryptedPhrase.Append(key[x + cipherShift]);
                     }
-<<<<<<< HEAD
-=======
-                    else
-                        if(phraseArray[i] == key[x])
-                        {
-                            encryptedArray[i] = key[x + cipherShift];
-                            Console.WriteLine("Encrypted phrase: {0}", encryptedArray[i]);
-                        }
-                    */
->>>>>>> .
                 }
             }
             Console.WriteLine("Test Phrase: {0}", encryptedPhrase);
