@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Configuration;
-using System.Text.RegularExpressions;
 
 namespace Challenge_3
 {

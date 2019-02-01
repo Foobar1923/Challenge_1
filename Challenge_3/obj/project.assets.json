@@ -686,28 +686,30 @@
     ]
   },
   "packageFolders": {
-    "/home/beardsyndicate/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\kevin.yates\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/beardsyndicate/Projects/Challenge_3/Challenge_3.csproj",
+      "projectUniqueName": "c:\\Users\\kevin.yates\\Downloads\\Code\\Challenges\\Challenge_3\\Challenge_3.csproj",
       "projectName": "Challenge_3",
-      "projectPath": "/home/beardsyndicate/Projects/Challenge_3/Challenge_3.csproj",
-      "packagesPath": "/home/beardsyndicate/.nuget/packages/",
-      "outputPath": "/home/beardsyndicate/Projects/Challenge_3/obj/",
+      "projectPath": "c:\\Users\\kevin.yates\\Downloads\\Code\\Challenges\\Challenge_3\\Challenge_3.csproj",
+      "packagesPath": "C:\\Users\\kevin.yates\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\kevin.yates\\Downloads\\Code\\Challenges\\Challenge_3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/beardsyndicate/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\kevin.yates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
